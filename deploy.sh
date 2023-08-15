@@ -13,6 +13,6 @@ git commit -m "deploy"
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:zaidahmad25/smart-brain-frontend.git main:gh-pages
+# git push -f git@github.com:zaidahmad25/zaid-ahmad.github.io.git main:gh-pages
 
 cd -
