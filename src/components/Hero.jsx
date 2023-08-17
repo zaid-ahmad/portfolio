@@ -2,7 +2,6 @@
 import { Link } from 'react-scroll'
 
 import Gmail from '../assets/gmail.png'
-import resume from '../assets/resume.pdf'
 
 function Hero() {
   return (
@@ -23,7 +22,7 @@ function Hero() {
                 </h2>
               </div>
               <a
-                href={resume}
+                href='https://drive.google.com/file/d/1A_h9ATtqbZNJmtYESAdTr6z_3gAADcBm/view?usp=sharing'
                 className='bg-[#FDCB6E] text-black py-2 px-6 md:text-base text-sm md:px-12 rounded-md font-medium'
                 target='_blank'
               >
