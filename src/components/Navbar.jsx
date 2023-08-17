@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { Link } from 'react-scroll'
-import resume from '../assets/resume.pdf'
 import { useState } from 'react'
 import Hamburger from 'hamburger-react'
 
@@ -73,9 +73,9 @@ function Navbar() {
           </li>
           <span>|</span>
           <a
-            href={resume}
+            href='https://drive.google.com/file/d/1A_h9ATtqbZNJmtYESAdTr6z_3gAADcBm/view?usp=sharing'
             className='bg-[#FDCB6E] flex items-center gap-3 text-black py-2 px-8 rounded-md font-medium'
-            download
+            target='_blank'
           >
             Resume
             <svg
