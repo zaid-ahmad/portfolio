@@ -13,7 +13,7 @@ function Projects() {
     <>
       <section
         id='projects'
-        className='w-full md:w-auto flex justify-start items-center mx-24 h-full text-white z-0 md:mt-[460px] mt-[930px] '
+        className='container w-full md:w-auto flex justify-start items-center md:mx-24 h-full text-white z-0 p-5'
       >
         <div className='flex flex-col w-full md:mt-0 mt-[-120px]'>
           <h2 className='font-lalezar text-6xl mt-28'>Projects</h2>

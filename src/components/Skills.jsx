@@ -3,9 +3,9 @@ function Skills() {
     <>
       <section
         id='skills'
-        className='w-full md:w-auto flex justify-start items-center mx-24 h-full text-white md:mt-32 mt-[680px]'
+        className='container w-full md:w-auto flex justify-start items-center md:mx-24 h-full text-white md:mt-32 p-5'
       >
-        <div className='flex flex-col w-full h-screen'>
+        <div className='flex flex-col w-full'>
           <h2 className='font-lalezar text-6xl'>Skills</h2>
           <div className='flex flex-col items-center gap-16 mt-10 w-full'>
             <div className='flex flex-col items-center gap-8'>
@@ -13,7 +13,7 @@ function Skills() {
               <div className='flex gap-12'>
                 <div className='flex flex-col md:flex-row items-center gap-5'>
                   <div className='flex gap-5 md:gap-12'>
-                    <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                    <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='90'
@@ -39,7 +39,7 @@ function Skills() {
                         />
                       </svg>
                     </div>
-                    <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                    <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='90'
@@ -73,7 +73,7 @@ function Skills() {
                         />
                       </svg>
                     </div>
-                    <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                    <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='100'
@@ -90,7 +90,7 @@ function Skills() {
                     </div>
                   </div>
                   <div className='flex gap-5 md:gap-12'>
-                    <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                    <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='100'
@@ -119,7 +119,7 @@ function Skills() {
                         />
                       </svg>
                     </div>
-                    <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                    <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='100'
@@ -142,7 +142,7 @@ function Skills() {
               <h3 className='text-3xl'>Backend</h3>
               <div className='flex flex-col items-center gap-5 md:gap-12'>
                 <div className='flex gap-5 md:gap-12'>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'
@@ -185,7 +185,7 @@ function Skills() {
                     </svg>
                   </div>
 
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='92'
@@ -203,7 +203,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       width='100'
                       height='100'
@@ -221,7 +221,7 @@ function Skills() {
                 </div>
 
                 <div className='flex gap-5 md:gap-12'>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-16 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='46'
@@ -243,7 +243,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='98'
@@ -269,7 +269,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'
@@ -290,7 +290,7 @@ function Skills() {
                 </div>
 
                 <div className='flex gap-5 md:gap-12'>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-16 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='74'
@@ -316,7 +316,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'
@@ -478,7 +478,7 @@ function Skills() {
               <h3 className='text-3xl'>Technologies</h3>
               <div className='flex flex-col items-center gap-5 md:gap-12 md:flex-row'>
                 <div className='flex gap-5 md:gap-12'>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='90'
@@ -500,7 +500,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'
@@ -517,7 +517,7 @@ function Skills() {
                 </div>
 
                 <div className='flex gap-5 md:gap-12'>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'
@@ -611,7 +611,7 @@ function Skills() {
                       />
                     </svg>
                   </div>
-                  <div className='rounded-3xl shrink-0 p-8 bg-[#1D1F23] skill flex justify-center items-center w-[9rem] h-[9rem]'>
+                  <div className='rounded-3xl shrink-0 bg-[#1D1F23] skill flex justify-center items-center md:w-36 md:h-36 w-20 h-20 md:p-8 p-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='100'

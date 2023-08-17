@@ -8,10 +8,10 @@ function Hero() {
   return (
     <>
       <main
-        className='md:w-full flex flex-col items-start md:items-center h-screen '
+        className='container md:w-full flex flex-col items-start md:items-center h-screen md:p-0'
         id='home'
       >
-        <div className='flex justify-start items-center w-screen md:w-full h-full '>
+        <div className='flex justify-start items-center w-screen md:w-full h-full p-5'>
           <div className='inline-flex flex-col items-start gap-4 md:gap-10 md:ml-24 '>
             <div className='flex flex-col items-start gap-8'>
               <div className='flex flex-col'>
