@@ -4,9 +4,9 @@ function About() {
     <>
       <section
         id='about'
-        className='w-full md:w-auto flex justify-start items-center mx-10 md:mx-24 h-full text-white md:mt-0 mt-20'
+        className='container w-full h-full md:w-auto flex justify-start items-center p-5 md:mx-24 text-white md:mt-0 md:p-0'
       >
-        <div className='flex flex-col h-screen mt-32'>
+        <div className='flex flex-col md:mt-32'>
           <h2 className='font-lalezar text-6xl'>About me</h2>
           <div className='flex flex-col text-xl'>
             <br />

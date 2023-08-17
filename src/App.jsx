@@ -8,12 +8,14 @@ import Contact from './components/Contact'
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className='flex flex-col gap-5 items-center'>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </>
   )
 }

@@ -9,7 +9,7 @@ function Navbar() {
     'showMenuNav block absolute w-full h-screen top-0 left-0 flex flex-col justify-evenly items-center text-white transition'
   return (
     <>
-      <header className='justify-center mt-10 hidden md:flex'>
+      <header className='container justify-center mt-10 hidden md:flex'>
         <ul className='w-[60rem] h-[7rem] p-1 text-white fixed flex items-center justify-center gap-[3.125rem] rounded-full shrink-0 z-50'>
           <li className='text-center text-xl leading-normal cursor-pointer'>
             <Link

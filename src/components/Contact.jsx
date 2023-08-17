@@ -33,7 +33,7 @@ function Contact() {
     <>
       <section
         id='contact'
-        className='w-full md:w-auto flex justify-start items-center md:mx-24 h-full text-white mt-28'
+        className='container w-full md:w-auto flex justify-start items-center md:mx-24 h-full text-white mt-28'
       >
         <div className='flex flex-col h-screen '>
           <h2 className='font-lalezar text-6xl md:ml-0 ml-6'>Contact</h2>
@@ -88,9 +88,9 @@ function Contact() {
               </div>
             </form>
             <div className='flex flex-col items-start gap-7 w-full mt-5'>
-              <div className='flex  justify-center md:justify-evenly items-center  w-full'>
+              <div className='flex  justify-around md:justify-evenly items-center  w-full'>
                 <a href='https://github.com/zaid-ahmad' target='_blank'>
-                  <div className='flex items-center gap-3'>
+                  <div className='flex flex-col md:flex-row items-center md:gap-3'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='45'
@@ -107,7 +107,7 @@ function Contact() {
                   </div>
                 </a>
                 <a href='https://twitter.com/zaidahmad__dev' target='_blank'>
-                  <div className='flex items-center gap-3 mt-[-10px]'>
+                  <div className='flex flex-col md:flex-row items-center md:gap-3'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='40'
@@ -134,7 +134,7 @@ function Contact() {
 
               <div className='flex justify-around md:justify-evenly items-center w-full'>
                 <a href='mailto:zaidd250@gmail.com'>
-                  <div className='flex items-center gap-3'>
+                  <div className='flex flex-col md:flex-row items-center md:gap-3'>
                     <img src={Gmail} alt='gmail' className='w-10' />
                     <p>zaidd250@gmail.com</p>
                   </div>
@@ -143,7 +143,7 @@ function Contact() {
                   href='https://www.linkedin.com/in/zaidahmad25/'
                   target='_blank'
                 >
-                  <div className='flex items-center gap-3'>
+                  <div className='flex flex-col md:flex-row items-center md:gap-3'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='38'
