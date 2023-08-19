@@ -61,7 +61,7 @@ function Projects() {
                 </div>
                 <div className='description mt-4 px-16 md:text-lg text-md'>
                   <p className='leading-[150%]'>
-                    A full-stack e-commerce application built for my father's
+                    A full-stack e-commerce application built for a small
                     business. The application has all the essential features of
                     an e-commerce website, including:
                   </p>
