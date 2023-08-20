@@ -7,16 +7,24 @@ import Gmail from '../assets/gmail.png'
 /* eslint-disable react/no-unescaped-entities */
 function Contact() {
   const form = useRef()
+  const [name, setName] = useState('')
+  const [msg, setMsg] = useState('')
   const [message, setMessage] = useState('')
 
   const sendEmail = (e) => {
     e.preventDefault()
 
+    const templateParams = {
+      to_name: 'Zaid Ahmad', // This is the recipient's name
+      from_name: name, // Get the sender's name from the form
+      message: msg, // Get the message from the form
+    }
+
     emailjs
-      .sendForm(
+      .send(
         'service_0oflkhf',
         'template_4rmitev',
-        form.current,
+        templateParams,
         '-AThJ0_bhBE0iACs0'
       )
       .then(
@@ -24,7 +32,7 @@ function Contact() {
           setMessage('Message sent successfully!')
         },
         () => {
-          setMessage('Oops! Some error occured.')
+          setMessage('Oops! Some error occurred.')
         }
       )
   }
@@ -52,14 +60,9 @@ function Contact() {
                     type='text'
                     name='user_name'
                     className='bg-[#424242] rounded h-8 w-52 p-3 '
-                  />
-                </div>
-                <div className='flex flex-col'>
-                  <label className='font-light uppercase'>Email</label>
-                  <input
-                    type='email'
-                    name='user_email'
-                    className='bg-[#424242] rounded h-8 w-52 p-3 '
+                    onChange={(e) => {
+                      setName(e.target.value)
+                    }}
                   />
                 </div>
               </div>
@@ -68,6 +71,9 @@ function Contact() {
                 <textarea
                   name='message'
                   className='bg-[#424242] w-full rounded h-40 p-3 '
+                  onChange={(e) => {
+                    setMsg(e.target.value)
+                  }}
                 />
               </div>
               <div className='flex flex-col gap-2'>
